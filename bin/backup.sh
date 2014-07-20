@@ -19,7 +19,7 @@ if [[ -z "$S3_BUCKET_PATH" ]]; then
 fi
 
 #install aws-cli
-curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
+# curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
 jar xvf awscli-bundle.zip
 chmod +x ./awscli-bundle/install
 ./awscli-bundle/install -i /tmp/aws
